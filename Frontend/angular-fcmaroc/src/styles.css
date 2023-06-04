@@ -1,3 +1,4 @@
+/*NAVBAR*/
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 
 body{
@@ -9,7 +10,7 @@ body{
 
   text-transform: uppercase;
   font-size: 12px;
-  margin-right:20px;
+  margin-right:25px;
   color: #fff;
 }
 
@@ -38,11 +39,6 @@ body{
     transition: 1s all;
 }
 
-/*.navbar-brand img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}*/
 
 .navbar-brand{
 
@@ -69,6 +65,7 @@ body{
 
   background-color: red;
   color: #fff;
+  height: 60px;
 
 }
 
@@ -90,3 +87,312 @@ body{
   
   
 }
+/********************END NAVBAR*********************/
+
+
+/*BACKGROUND PICTURE 1 HOME PAGE*/
+#background-section {
+  background-image: url('assets/images/image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 610px;
+}
+
+/*TEXT OF BACKGROUND PICTURE 1*/
+.background-text {
+  position: absolute;
+  top: 90%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.background-text h1 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
+}
+
+.background-text-pre {
+  font-size: 3.6em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+/**********for RESULTS API IN HOME PAGE***********/
+#game-results {
+  width: 60%;
+  margin: -50px auto 20px;
+  padding: 50px;
+  border: 2px solid #000;
+  background-color: white;
+}
+
+/*FOR IMAGES AND TEXTS IN HOME PAGE*/
+.white-section {
+  padding: 30px;
+  /*background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/images/background3.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.image-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.image-team {
+  width: 500px;
+  height: 250px;
+  margin-right: 20px;
+  box-shadow: 0 0 5px grey;
+}
+
+.description-image-team {
+  font-size: 21px;
+  text-align: justify;
+  text-align: center;
+  font-family: 'Garamond', sans-serif;
+}
+
+/*REVERSE THE SECOND IMAGE WITH ITS TEXT*/
+.reversed {
+  flex-direction: row-reverse;
+}
+
+/*MORE BOTTOM MARGIN FOR FIRST IMAGE*/
+.bigermargin{
+  margin-bottom: 120px;
+}
+
+.image-title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***********FOOTER************/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("assets/images/image5.jpg");
+  background-size: cover;
+  
+}
+
+
+
+.first {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: rgb(206,206,206);
+  font-family: 'Poppins', sans-serif;
+}
+
+  .first h4 {
+      font-size: 20px;
+      letter-spacing: 3px;
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 1.6em;
+      color: #fff;
+      padding-bottom: 0.5em;
+  }
+
+      .first h4::after {
+          content: '';
+          background: #66c83d;
+          width: 20%;
+          height: 2px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+      }
+
+  .first p {
+      font-size: 14px;
+  }
+
+.second {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: rgb(206,206,206);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.second2 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: rgb(206,206,206);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  
+}
+
+.second h4 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #fff;
+  padding-bottom: 0.5em;
+}
+
+  .second h4::after {
+      content: '';
+      background: #66c83d;
+      width: 20%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 44%;
+  }
+
+
+.second li {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.second a, .second2 a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+  .second a:hover, .second2 a:hover {
+      color: #fff;
+      transition: 0.2s;
+      text-shadow: 1px 1px 20px rgba(0,0,0,1);
+      text-decoration: none
+
+  }
+
+
+
+.third {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: rgb(206,206,206);
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+}
+
+
+  .third h4 {
+      font-size: 20px;
+      letter-spacing: 3px;
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 1.6em;
+      color: #fff;
+      padding-bottom: 0.5em;
+  }
+
+
+      .third h4::after {
+          content: '';
+          background: #66c83d;
+          width: 20%;
+          height: 2px;
+          position: absolute;
+          bottom: 0;
+          left: 80%;
+      }
+
+
+
+  .third li {
+      list-style: none;
+      padding-bottom: 15px;
+  }
+
+
+  .third a {
+      color: rgb(206, 206, 206);
+      text-decoration: none;
+      letter-spacing: 3px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 0.2s;
+  }
+
+
+      .third a:hover {
+          color: #fff;
+          transition: 0.2s;
+          text-shadow: 1px 1px 20px rgba(0,0,0,1);
+      }
+
+
+@media screen and (max-width:1000px) {
+  .first {
+      text-align: center;
+  }
+
+      .first h4::after {
+          left: 40%;
+      }
+}
+.sponsor1, .sponsor2, .sponsor3 {
+  width: 100px;
+  height: auto;
+  margin-bottom: 22px;
+  margin-top: 10px;
+}
+@media screen and (max-width:1000px) {
+  .third {
+      text-align: center;
+  }
+
+      .third h4::after {
+          left: 40% !important;
+      }
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+.line {
+  height:2px;
+  background-color:rgb(206,206,206);
+  width:100%;
+}
+
+.container h1{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+/***********END FOOTER************/
