@@ -13,18 +13,18 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <a class="nav-link active" aria-current="page" href="home">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Mannschaften</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="#">Spielbetrieb</a>
+    <a class="nav-link" routerLink="/team">Team</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="#">Verein</a>
+    <a class="nav-link" href="spielbetrieb/">Spielbetrieb</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="verein/">Verein</a>
   </li>
 
   <li class="nav-item">
@@ -48,41 +48,8 @@
 <!--**********END NAVBAR***********-->
 
 
-<!--**********TEXT OF BACKGROUND IMAGE 1 ***********-->
-<div id="background-section">
-  <div class="background-text">
-    <h1>FC-MAROC MÜNCHEN</h1>
-    <pre class="background-text-pre">
-      GEMEINSAM
-      FÜR DEN SIEG
-      </pre>
-  </div>
-</div>  
+<router-outlet></router-outlet>
 
-<!--**********for RESULTS API***********-->
-<div id="game-results"></div>
-
-<!--**********HOME'S WHITE SECTION, IMAGES AND THEIR TEXTS***********-->
-<section class="white-section">
-  <div class="content">
-    <div class="image-block bigermargin">
-      <img src="assets/images/image4.jpg" alt="Description of image" class="image-team">
-    <div>
-      <h2 class="image-title">Eine Kurzübersicht</h2>
-      <p class="description-image-team">Der FC Maroc München wurde im Jahr 2009 gegründet, unser Spielplatz befindet sich in der Bezirkssportsanlage Bauernfeind Str. 19, 80939 München. Dort trainiert die Herrenmannschaft mittwochs ab 18:30 Uhr und die E-Junioren-Mannschaft (U11) Mittwochs und Freitags um 16:30 Uhr.
-        Für den Spiel- und Trainingsbetrieb stehen zwei gepflegte Rasenplätze, ein Kleinfeld-Rasenplatz sowie ein Tennenplatz zur Verfügung.</p>
-    </div>
-    </div>
-    <div class="image-block reversed">
-      <img src="assets/images/image4.jpg" alt="Description of image" class="image-team reverse">
-      <div>
-      <h2 class="image-title">Fußballmannschaften und Jugendarbeit</h2>
-      <p class="description-image-team"> Aktuell hat der Verein nur eine Fussballabteilung, die mit einer 1. Herren Fussballmannschaft in der B-Klasse der Liga vom Bayerischen Fussball-Verband vertreten ist.
-        Unser Verein hat es sich zum Ziel gesetzt, die sportliche Entwicklung insbesondere von Kindern und Jugendlichen zu fördern. Ein wesentlicher Schritt ist mit der erste E-Junioren Fussballmannschaft U11 bereits in dieser Saison getan.</p>
-    </div>
-  </div>
-  </div>
-</section>
 
 <!--**********FOOTER***********-->
  <!-- footer -->

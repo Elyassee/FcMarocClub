@@ -134,12 +134,16 @@ body{
   padding: 50px;
   border: 2px solid #000;
   background-color: white;
+  position: absolute;
+  top: 41.5rem;
+  left: 16rem;
+
 }
 
 /*FOR IMAGES AND TEXTS IN HOME PAGE*/
 .white-section {
   padding: 30px;
-  /*background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/images/background3.jpg");*/
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/images/background3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -163,6 +167,10 @@ body{
   height: 250px;
   margin-right: 20px;
   box-shadow: 0 0 5px grey;
+}
+
+.top-margin{
+  margin-top: 70px;
 }
 
 .description-image-team {
