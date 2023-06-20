@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 import { SpielbetriebComponent } from './spielbetrieb/spielbetrieb.component';
 import { VereinComponent } from './verein/verein.component';
+import { PlayersComponent } from './components/players/players.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -21,7 +22,8 @@ const routes: Routes = [
     HomeComponent,
     TeamComponent,
     SpielbetriebComponent,
-    VereinComponent
+    VereinComponent,
+    PlayersComponent
   ],
   imports: [
     BrowserModule,
