@@ -1,6 +1,36 @@
 <section class="white-section">
-    <div class="content">
-      <div class="image-block bigermargin">
+  <div class="content">
+    <div class="image-block bigermargin">
+      <div class="row">
+        <!-- Display players -->
+        <div class="col-md-4" *ngFor="let player of players">
+          <div class="card card-has-bg">
+            <img class="card-img-top" [src]="player.imageUrl" alt="Player image">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="fa_player_name">{{player.fullName}}</div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Geburtsdatum: {{player.dateOfBirth}}</p>
+              <p class="card-text">Idol: {{player.idol}}</p>
+              <p class="card-text">Größe: {{player.height}} cm</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Display staff -->
+        <div class="col-md-4" *ngFor="let staffMember of staff">
+          <div class="card card-has-bg">
+            <img class="card-img-top" [src]="staffMember.imageUrl" alt="Staff image">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="fa_player_name">{{staffMember.fullName}}</div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">{{staffMember.role}}</p>
+              <!-- Add more properties as needed -->
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 </section>

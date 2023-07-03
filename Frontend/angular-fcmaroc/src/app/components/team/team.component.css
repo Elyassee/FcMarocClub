@@ -1,0 +1,63 @@
+.white-section {
+    margin-top: 60px;
+}
+
+.card {
+    border: none;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 350px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+  
+  .card-has-bg:hover {
+    transform: scale(0.98);
+    box-shadow: 0 0 5px -2px rgba(0,0,0,0.3);
+  }
+  
+  .card-body {
+    opacity: 0;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+  
+.card:hover .card-body {
+    opacity: 1;
+    margin-top: 30px;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+  
+  .card-img-overlay {
+    position: relative;
+  }
+  
+  .fa_player_name {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Flood', sans-serif;
+    color: black; 
+    text-align: center;
+    position: relative;
+    top: 10px;
+    width: 100%;
+  }
+  
+  .col-md-4 {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.card-text {
+    font-size: 17px;
+    font-family: 'Typo', sans-serif;
+}

@@ -12,4 +12,6 @@ public class Person {
     private String id;
     private String fullName;
     private LocalDate dateOfBirth;
+    private String imageUrl;
+
 }

@@ -1,10 +1,8 @@
-export class Player {
+export class Staff {
     constructor(
       public fullName: string,
       public dateOfBirth: string,
-      public idol: string,
-      public height: number,
+      public role: string,
       public imageUrl: string
     ) { }
   }
-  

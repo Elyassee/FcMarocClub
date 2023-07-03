@@ -1,3 +1,24 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+/*Fonts*/
+@font-face {
+  font-family: Flood;
+  src: url(assets/fonts/AndroidAssassin-grz1.ttf) format('truetype');
+}
+
+.Flood{
+  font-family: Flood;
+}
+
+@font-face {
+  font-family: Typo;
+  src: url(assets/fonts/AbadiMT-Bold.ttf) format('truetype');
+}
+
+.Typo{
+  font-family: Typo;
+}
+
 /*NAVBAR*/
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 

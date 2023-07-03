@@ -7,12 +7,12 @@ import { Player } from '../models/player';
   providedIn: 'root'
 })
 export class PlayerService {
-  private API_URL = 'http://localhost:8080/api/players';
+  private API_URL = 'http://localhost:8080/api/player';
 
   constructor(private http: HttpClient) { }
 
-  public getPlayers(): Observable<Player> {
-    return this.http.get<Player>(`${this.API_URL}/players`);
+  public getPlayers(): Observable<Player[]> {
+    return this.http.get<Player[]>(`${this.API_URL}/players`);
   }
 
   addPlayers(player: Player): Observable<Player> {
@@ -25,6 +25,6 @@ export class PlayerService {
   }
 
   deletePlayer(playerId: string): Observable<void> {
-    return this.http.delete<void>(`${this.API_URL}/players${playerId}`);
+    return this.http.delete<void>(`${this.API_URL}/players/${playerId}`);
   }
 }
