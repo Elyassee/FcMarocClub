@@ -28,13 +28,8 @@
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="#">Kontakt</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
-  </li>
-  
+    <a class="nav-link scroll-link" (click)="scrollToContact()">Kontakt</a>
+  </li>  
   
 </ul>
 <div class="d-flex flex-column sim">
@@ -53,7 +48,7 @@
 
 <!--**********FOOTER***********-->
  <!-- footer -->
- <div class="footer">
+ <div class="footer" id="footer" #footer>
   <div class="container">
       <div class="row">
           <div class="col-md-4 col-xs-12">
@@ -75,8 +70,8 @@
               <div class="second">
                   <h4>&nbsp;&nbsp;&nbsp;MENÜ</h4>
                   <ul>
-                      <li><a href="#">HOME</a></li>
-                      <li><a href="#">MANNSCHAFTEN</a></li>
+                    <li><a routerLink="/home" (click)="scrollToTop()">HOME</a></li>
+                      <li><a routerLink="/team" (click)="scrollToTop()">TEAM</a></li>
                       <li><a href="#">SPIELBETRIEB</a></li>
                       <li><a href="#">VEREIN</a></li>
                   </ul>
@@ -104,15 +99,15 @@
           <div class="col-12">
               <div class="line"></div>
               <div class="second2">
-                <a href="https://www.instagram.com/your_username/" target="_blank">
+                <a href="https://www.instagram.com" target="_blank">
                   <i class="fab fa-instagram fa-2x margin"></i>
                 </a>
                 
-                <a href="https://www.facebook.com/your_username/" target="_blank">
+                <a href="https://www.facebook.com" target="_blank">
                   <i class="fab fa-facebook fa-2x margin"></i>
                 </a>
                 
-                  <a href="https://www.youtube.com/channel/" target="_blank">
+                  <a href="https://www.youtube.com" target="_blank">
                     <i class="fab fa-youtube fa-2x margin" ></i>
                   </a>
                   

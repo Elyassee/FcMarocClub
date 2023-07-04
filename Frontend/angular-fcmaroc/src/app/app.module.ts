@@ -7,6 +7,7 @@ import { TeamComponent } from './components/team/team.component';
 import { SpielbetriebComponent } from './components/spielbetrieb/spielbetrieb.component';
 import { VereinComponent } from './components/verein/verein.component';
 import { HttpClientModule } from '@angular/common/http';
+import { KontaktComponent } from './components/kontakt/kontakt.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -22,7 +23,8 @@ const routes: Routes = [
     HomeComponent,
     TeamComponent,
     SpielbetriebComponent,
-    VereinComponent
+    VereinComponent,
+    KontaktComponent
   ],
   imports: [
     BrowserModule,
