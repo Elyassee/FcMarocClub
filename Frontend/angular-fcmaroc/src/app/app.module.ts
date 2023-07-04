@@ -13,8 +13,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: HomeComponent },
   { path: 'team', component: TeamComponent },
-  { path: 'Spielbetrieb', component: SpielbetriebComponent },
-  { path: 'Verein', component: VereinComponent }
+  { path: 'spielbetrieb', component: SpielbetriebComponent },
+  { path: 'verein', component: VereinComponent }
 ];
 
 @NgModule({
