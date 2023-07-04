@@ -1,6 +1,7 @@
 export class Staff {
     constructor(
-      public fullName: string,
+      public vorname: string,
+      public name: string,
       public dateOfBirth: string,
       public role: string,
       public imageUrl: string

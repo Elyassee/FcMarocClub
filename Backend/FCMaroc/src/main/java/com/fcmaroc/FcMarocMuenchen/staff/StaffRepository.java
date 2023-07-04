@@ -4,5 +4,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface StaffRepository extends MongoRepository<Staff, String> {
-    Staff findByFullName(String fullName);
+    Staff findByNameAndVorname(String name, String vorname);
 }

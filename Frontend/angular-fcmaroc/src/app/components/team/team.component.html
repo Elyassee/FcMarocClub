@@ -7,7 +7,7 @@
           <div class="card card-has-bg">
             <img class="card-img-top" [src]="player.imageUrl" alt="Player image">
             <div class="card-img-overlay d-flex flex-column">
-              <div class="fa_player_name">{{player.fullName}}</div>
+              <div class="fa_player_name">{{player.vorname}}<br>{{player.name}}</div>
             </div>
             <div class="card-body">
               <p class="card-text">Geburtsdatum: {{player.dateOfBirth}}</p>
@@ -22,11 +22,10 @@
           <div class="card card-has-bg">
             <img class="card-img-top" [src]="staffMember.imageUrl" alt="Staff image">
             <div class="card-img-overlay d-flex flex-column">
-              <div class="fa_player_name">{{staffMember.fullName}}</div>
+              <div class="fa_player_name">{{staffMember.vorname}}<br>{{staffMember.name}}</div>
             </div>
             <div class="card-body">
               <p class="card-text">{{staffMember.role}}</p>
-              <!-- Add more properties as needed -->
             </div>
           </div>
         </div>

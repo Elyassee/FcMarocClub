@@ -1,6 +1,7 @@
 export class Player {
     constructor(
-      public fullName: string,
+      public vorname: string,
+      public name: string,
       public dateOfBirth: string,
       public idol: string,
       public height: number,

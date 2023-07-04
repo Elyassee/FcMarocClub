@@ -10,7 +10,8 @@ import java.time.LocalDate;
 public class Person {
     @Id
     private String id;
-    private String fullName;
+    private String vorname;
+    private String name;
     private LocalDate dateOfBirth;
     private String imageUrl;
 
