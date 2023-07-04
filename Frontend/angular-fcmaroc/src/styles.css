@@ -110,58 +110,7 @@ body{
 }
 /********************END NAVBAR*********************/
 
-
-/*BACKGROUND PICTURE 1 HOME PAGE*/
-#background-section {
-  background-image: url('assets/images/image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 610px;
-}
-
-/*TEXT OF BACKGROUND PICTURE 1*/
-.background-text {
-  position: absolute;
-  top: 90%;
-  left: 21%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-}
-
-.background-text h1 {
-  font-size: 1em;
-  color: white;
-  text-align: center;
-  
-}
-
-.background-text-pre {
-  font-size: 3.6em;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.1;
-  text-align: center;
-  font-family: 'Arial', sans-serif;
-  
-}
-
-/**********for RESULTS API IN HOME PAGE***********/
-#game-results {
-  width: 60%;
-  margin: -50px auto 20px;
-  padding: 50px;
-  border: 2px solid #000;
-  background-color: white;
-  position: absolute;
-  top: 41.5rem;
-  left: 16rem;
-
-}
-
-/*FOR IMAGES AND TEXTS IN HOME PAGE*/
+/****BACKGROUND PICTURE OF ALL PAGES****/
 .white-section {
   padding: 30px;
   background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/images/background3.jpg");
@@ -170,55 +119,6 @@ body{
   background-position: center;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.image-block {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 40px;
-}
-
-.image-team {
-  width: 500px;
-  height: 250px;
-  margin-right: 20px;
-  box-shadow: 0 0 5px grey;
-}
-
-.top-margin{
-  margin-top: 70px;
-}
-
-.description-image-team {
-  font-size: 21px;
-  text-align: justify;
-  text-align: center;
-  font-family: 'Garamond', sans-serif;
-}
-
-/*REVERSE THE SECOND IMAGE WITH ITS TEXT*/
-.reversed {
-  flex-direction: row-reverse;
-}
-
-/*MORE BOTTOM MARGIN FOR FIRST IMAGE*/
-.bigermargin{
-  margin-bottom: 120px;
-}
-
-.image-title {
-  font-size: 34px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-}
 
 /***********FOOTER************/
 * {
