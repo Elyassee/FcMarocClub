@@ -5,16 +5,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { TeamComponent } from './components/team/team.component';
 import { SpielbetriebComponent } from './components/spielbetrieb/spielbetrieb.component';
-import { VereinComponent } from './components/verein/verein.component';
 import { HttpClientModule } from '@angular/common/http';
-import { KontaktComponent } from './components/kontakt/kontakt.component';
+import { ImpressumComponent } from './components/impressum/impressum.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: HomeComponent },
   { path: 'team', component: TeamComponent },
   { path: 'spielbetrieb', component: SpielbetriebComponent },
-  { path: 'verein', component: VereinComponent }
+  { path: 'impressum', component: ImpressumComponent}
 ];
 
 @NgModule({
@@ -23,8 +22,7 @@ const routes: Routes = [
     HomeComponent,
     TeamComponent,
     SpielbetriebComponent,
-    VereinComponent,
-    KontaktComponent
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,

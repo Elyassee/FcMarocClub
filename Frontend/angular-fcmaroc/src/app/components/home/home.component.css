@@ -1,20 +1,32 @@
 /*BACKGROUND PICTURE 1 HOME PAGE*/
 #background-section {
-    background-image: url('../../../assets/images/image.jpg');
+    background-image: url('../../../assets/images/backgroung-homePage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 610px;
+    height: 100vh;
   }
   
   /*TEXT OF BACKGROUND PICTURE 1*/
-  .background-text {
+  /* For desktop: */
+  
+.background-text {
     position: absolute;
-    top: 90%;
-    left: 21%;
-    transform: translate(-50%, -50%);
-    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, 70%);
     text-align: center;
+  }
+  
+  /* For mobile: */
+  @media only screen and (max-width: 600px) {
+    .background-text {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+      text-align: center;
+    }
   }
   
   .background-text h1 {
@@ -33,19 +45,6 @@
     text-align: center;
     font-family: 'Arial', sans-serif;
     
-  }
-  
-  /**********for RESULTS API IN HOME PAGE***********/
-  #game-results {
-    width: 60%;
-    margin: -50px auto 20px;
-    padding: 50px;
-    border: 2px solid #000;
-    background-color: white;
-    position: absolute;
-    top: 41.5rem;
-    left: 16rem;
-  
   }
   
   /*FOR IMAGES AND TEXTS IN HOME PAGE*/

@@ -1,4 +1,19 @@
 .scroll-link {
     cursor: pointer;
   }
+  footer.footer .row:last-child {
+    margin-top: 20px;
+  }
   
+  footer.footer .col-12.text-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer.footer .col-12.text-center .copyright {
+    margin-bottom: 0;
+  }
+
+  .footer .col-12 .copyright {
+    color: white;
+  }
