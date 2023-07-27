@@ -7,7 +7,7 @@ import { Staff } from '../models/staff';
   providedIn: 'root'
 })
 export class StaffService {
-  private API_URL = 'http://localhost:8080/api/staff';
+  private API_URL = 'http://localhost:8081/api/staff';
 
   constructor(private http: HttpClient) { }
 
